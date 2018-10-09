@@ -1,16 +1,21 @@
-const http = require('http');
+const APP = (() => {
 
-http.createServer( (request, response) => {
+	const http = require('http');
 
-	// Send the HTTP header
-	// HTTP Status: 200 : OK
-	// Content Type: text/plain
-	response.writeHead(200, {'Content-Type': 'text/plain'});
+	const server = http.createServer( (request, response) => {
 
-	// Send the response body as "Hello World"
-	response.end('Hello World\n');
+		// Send the HTTP header
+		// HTTP Status: 200 : OK
+		// Content Type: text/plain
+		response.writeHead(200);
 
-}).listen(8081);
+		// Send the response body as "Hello World"
+		response.end('Hi everybody!');
 
-// Console will print the message
-console.log('Server running at http://127.0.0.1:8081/');
+	});
+	server.listen(8080);
+
+	// Console will print the message
+	console.log('Server running at http://127.0.0.1:8081/');
+
+})();
