@@ -1,4 +1,7 @@
 {
   "name": "THE ROCK LIST",
-  "version": "0.0.1"
+  "version": "0.0.1",
+  "description": "Setlist for musicians",
+  "keywords": ["setlist", "musician"],
+  "homepage": "https://github.com/Txaco/therocklist/readme.md"
 }
