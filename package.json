@@ -2,5 +2,8 @@
   "name": "THE ROCK LIST",
   "version": "0.0.1",
   "description": "Setlist for musicians",
-  "homepage": "https://github.com/Txaco/therocklist"
+  "homepage": "https://github.com/Txaco/therocklist",
+  "scripts": {
+    "build": "npm run build"
+  }
 }
