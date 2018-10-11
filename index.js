@@ -1,5 +1,5 @@
 const port = 8080;
-const host = '/';
+const host = 'https://test-therocklist.netlify.com';
 
 const http = require('http');
 
